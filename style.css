@@ -1,0 +1,153 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+body{
+  background-color:#70925d;
+}
+
+.navBar {
+  height:100%;
+  width:0;
+  position:fixed;
+  z-index:1;
+  top:0;
+  left:0;
+  background-color: #111;
+  overflow-x: hidden;
+  padding-top:60px;
+  transition:0.5s;
+  
+}
+.navBar a{
+  padding:8px 8px 8px 32px;
+  text-decoration:none;
+  font-size:25px;
+  color:white;
+  display:block;
+  transition:0.3s;
+  }
+.navBar a:hover{
+  background-color: #6f197b;
+}
+.navBar .closebtn{
+  position: absolute;
+  top:0;
+  right:25px;
+  font-size:36px;
+  margin-left:50px;
+}
+@margin screen and (max-height:450px){
+  .navBar{padding:15px;}
+  .navBar a{font-soze:18px;}
+}
+
+img {
+    width: 100px;   
+}
+
+div.boxone{
+  border: 5px solid #A4407B;
+  width:1150px;
+  height:650px;
+  margin-top: 10px;
+  margin-left: 10px;
+  overflow: scroll;
+  padding:1em;
+  background-color: #B8B7BA;
+  
+}
+.unitone{
+  border:#FDDDF2 solid 2px;
+  background-color: #FDDDF2;
+  border-radius: 5px;
+  color:black;
+  display: flex;
+  justify-content:flex-start;
+  margin:10px;
+  padding:10px;
+  font-family: 'Play', sans-serif;
+
+}
+
+.kim{
+  border-radius: 50%;
+  padding:10px;
+  height:50px;
+  width:50px;
+}
+
+.sectionone{
+  display:flex;
+  align-content:flex-start;
+}
+#imgone{
+  width:400px;
+  height:650px;
+  margin: 2em;
+  border-radius: 10px;
+}
+#imgtwo{
+  width:250px;
+  height:200px;
+  margin:2em;
+  border-radius: 10px;
+}
+#imgthree{
+  width:450px;
+  height:300px;
+  margin:2em;
+  border-radius:10px;
+}
+#imgfour{
+  width:700px;
+  height:500px;
+}
+#imgfive{
+width:400px;
+}
+
+h1{
+  font-family: 'Play', sans-serif;
+  font-size: 40px;
+  color:purple;
+  margin-left: 1em;
+}
+.posts{
+  display:flex;
+  justify-content:space-evenly;
+}
+
+div.boxtwo{
+    border: 5px solid #A4407B;
+    width:450px;
+    height:650px;
+    margin-top: 10px;
+    margin-left: 10px;
+    overflow: scroll;
+    padding:1em;
+    background-color: #B8B7BA;
+}
+
+.main{
+  display: flex;
+  justify-content: flex-start;
+}
+
+h2{
+  font-family: 'Play', sans-serif;
+  font-size: 40px;
+  color:purple;
+}
+.pfp{
+  border-radius: 50%;
+  width:400px;
+  height:400px;
+}
+
+.text{
+  font-family: 'Play', sans-serif;
+  font-size: 20px;
+  color:#11ff00;
+  text-align: center;
+}
